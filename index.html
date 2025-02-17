@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body onload="carregar()">
+    <!--Cabeçalho com título-->
+    <header>
+        <h1>
+            Contador
+        </h1>
+    </header>
+    <!--Conteúdo principal-->
+    <section>
+        <div>
+            <p>Início: <input type="number" name="inic" id="inic"></p>
+        </div>
+        <div>
+            <p>Fim: <input type="number" name="fim" id="fim"></p>
+        </div>
+        <div>
+            <p>Passo: <input type="number" name="passo" id="passo"></p>
+        </div>
+        <div>
+            <input type="button" value="Contar" onclick="contar()">
+        </div>
+        <div id="res">
+            <p>Insira as informações acima</p>
+        </div>
+    </section>
+    <!--Rodapé-->
+    <footer>
+        <p>Feito por Lamin</p>
+    </footer>
+</body>
+</html>
