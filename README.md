@@ -1,2 +1,2 @@
 # Contador
- Contador utilizando HTML, CSS E JavaScript
+ Contador utilizando HTML, CSS E JavaScript.
